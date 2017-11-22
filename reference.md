@@ -1,5 +1,5 @@
   according to [the post](https://blog.codinghorror.com/get-your-database-under-version-control/ "get your database under version control")
-# when in development about DB [](https://odetocode.com/blogs/scott/archive/2008/01/30/three-rules-for-database-work.aspx)
+# when work with DB [](https://odetocode.com/blogs/scott/archive/2008/01/30/three-rules-for-database-work.aspx)
 	* never user a shared database server for development work.
 	* always have a single, authoritative source for your schema.
 	* always version your database.
