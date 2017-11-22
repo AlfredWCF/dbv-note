@@ -29,3 +29,7 @@ according to [the post about dbv](https://blog.codinghorror.com/get-your-databas
 		)
 
 # [HOW TO DEAL WITH CHANGES](https://odetocode.com/blogs/scott/archive/2008/02/02/versioning-databases-change-scripts.aspx) #
+> By "change", I mean a change to a table, index, key, constraint, or any other object that requires DDL, 
+> with the exception of   views, stored procedures, and functions. 
+> I also include any changes to static data and bootstrap data in change scripts.
+
