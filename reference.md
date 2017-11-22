@@ -30,6 +30,20 @@ according to [the post about dbv](https://blog.codinghorror.com/get-your-databas
 
 # [HOW TO DEAL WITH CHANGES](https://odetocode.com/blogs/scott/archive/2008/02/02/versioning-databases-change-scripts.aspx) #
 > By "change", I mean a change to a table, index, key, constraint, or any other object that requires DDL, 
-> with the exception of   views, stored procedures, and functions. 
+> with the **exception** of   views, stored procedures, and functions. 
 > I also include any changes to static data and bootstrap data in change scripts.
 
+> Once a script is published into source control, it cannot be changed!
+> Once someone updates their database with an update script, they should never have to run the same script on that same database.
+
+> Always backup a production database before applying a change script. 
+
+> For instance, if for some reason we moved column A from the table_a to the table_b, the update script will also need to 
+> move and **preserve the data**. Data manipulation is often the trickiest part of change scripts and where they need 
+> the most testing.
+
+***
+
+[perhaps you need implent it in a idempotent way](https://haacked.com/archive/2006/07/05/bulletproofsqlchangescriptsusinginformation_schemaviews.aspx/)
+
+here is another atricle which talking about [Evolutionary Database Design](https://martinfowler.com/articles/evodb.html)
