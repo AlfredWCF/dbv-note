@@ -6,13 +6,13 @@ according to [the post about dbv](https://blog.codinghorror.com/get-your-databas
 > * always version your database.
 
 # [you need a baseline](https://odetocode.com/blogs/scott/archive/2008/01/31/versioning-databases-the-baseline.aspx) #
-* The first step in versioning a database is to generate a baseline schema. 
+1. The first step in versioning a database is to generate a baseline schema. 
 
 	This is the starting point for versioning a database. After you've published the baseline to an authoritative source, any changes to the schema require a schema change script.
 	
-* I like to keep all of the SQL needed to create tables, constraints, defaults, and primary indexes in a single file. Any views, stored procedures, and functions are scripted one per file.
+2. I like to keep all of the SQL needed to create tables, constraints, defaults, and primary indexes in a single file. Any views, stored procedures, and functions are scripted one per file.
 
-* Before you baseline the database you need to add a table to record these schema changes.
+3. Before you baseline the database you need to add a table to record these schema changes.
 		
 		CREATE TABLE [dbo].[SchemaChanges](
 		   [ID] [int] IDENTITY(1,1) NOT NULL,
