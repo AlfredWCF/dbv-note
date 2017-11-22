@@ -3,11 +3,13 @@ according to [the post about dbv](https://blog.codinghorror.com/get-your-databas
 ***
 
 # [WHEN WORK WITH DB](https://odetocode.com/blogs/scott/archive/2008/01/30/three-rules-for-database-work.aspx) #
+
 > * never user a shared database server for development work.
 > * always have a **single, authoritative source** for your schema.
 > * always version your database.
 
 # [YOU NEED A BASELINE](https://odetocode.com/blogs/scott/archive/2008/01/31/versioning-databases-the-baseline.aspx) #
+
 1. The first step in versioning a database is to generate a baseline schema. 
 
 	This is the starting point for versioning a database. After you've published the baseline to an authoritative source, any changes to the schema require a schema change script.
@@ -29,6 +31,7 @@ according to [the post about dbv](https://blog.codinghorror.com/get-your-databas
 		)
 
 # [HOW TO DEAL WITH CHANGES](https://odetocode.com/blogs/scott/archive/2008/02/02/versioning-databases-change-scripts.aspx) #
+
 > By "change", I mean a change to a table, index, key, constraint, or any other object that requires DDL, 
 > with the **exception** of   views, stored procedures, and functions. 
 > I also include any changes to static data and bootstrap data in change scripts.
@@ -47,3 +50,16 @@ according to [the post about dbv](https://blog.codinghorror.com/get-your-databas
 [perhaps you need implent it in a idempotent way](https://haacked.com/archive/2006/07/05/bulletproofsqlchangescriptsusinginformation_schemaviews.aspx/)
 
 here is another atricle which talking about [Evolutionary Database Design](https://martinfowler.com/articles/evodb.html)
+
+# [VIEWS, STORED PROCEDURES, FUNCTIONS, AND TRIGGERS](https://odetocode.com/blogs/scott/archive/2008/02/02/versioning-databases-views-stored-procedures-and-the-like.aspx) #
+
+> script every view, stored procedure, and function into a separate file, then commit the files to source control.
+
+When apply some changes, do as follows:
+
+> 1. The tool applies new schema changes by comparing the available schema change files to the SchemaChangeLog records in the database. 
+> 2. The tool will DROP all stored procedures, views, and functions in the database. 
+> 3. The tool will run all of the scripts needed to add the views, stored procedures, and functions back into the database. 
+
+# [BRANCHING AND MERGING](https://odetocode.com/blogs/scott/archive/2008/02/03/versioning-databases-branching-and-merging.aspx) #
+
