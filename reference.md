@@ -4,7 +4,7 @@ according to [the post about dbv](https://blog.codinghorror.com/get-your-databas
 
 # [when work with DB](https://odetocode.com/blogs/scott/archive/2008/01/30/three-rules-for-database-work.aspx) #
 > * never user a shared database server for development work.
-> * always have a single, authoritative source for your schema.
+> * always have a **single, authoritative source** for your schema.
 > * always version your database.
 
 # [you need a baseline](https://odetocode.com/blogs/scott/archive/2008/01/31/versioning-databases-the-baseline.aspx) #
