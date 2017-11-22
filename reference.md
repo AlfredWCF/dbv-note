@@ -2,12 +2,12 @@ according to [the post about dbv](https://blog.codinghorror.com/get-your-databas
 
 ***
 
-# [when work with DB](https://odetocode.com/blogs/scott/archive/2008/01/30/three-rules-for-database-work.aspx) #
+# [WHEN WORK WITH DB](https://odetocode.com/blogs/scott/archive/2008/01/30/three-rules-for-database-work.aspx) #
 > * never user a shared database server for development work.
 > * always have a **single, authoritative source** for your schema.
 > * always version your database.
 
-# [you need a baseline](https://odetocode.com/blogs/scott/archive/2008/01/31/versioning-databases-the-baseline.aspx) #
+# [YOU NEED A BASELINE](https://odetocode.com/blogs/scott/archive/2008/01/31/versioning-databases-the-baseline.aspx) #
 1. The first step in versioning a database is to generate a baseline schema. 
 
 	This is the starting point for versioning a database. After you've published the baseline to an authoritative source, any changes to the schema require a schema change script.
@@ -28,3 +28,4 @@ according to [the post about dbv](https://blog.codinghorror.com/get-your-databas
 		        PRIMARY KEY CLUSTERED ([ID] ASC)
 		)
 
+# [HOW TO DEAL WITH CHANGES](https://odetocode.com/blogs/scott/archive/2008/02/02/versioning-databases-change-scripts.aspx) #
