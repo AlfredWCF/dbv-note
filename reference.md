@@ -14,3 +14,14 @@ according to [the post about dbv](https://blog.codinghorror.com/get-your-databas
 
 * Before you baseline the database you need to add a table to record these schema changes.
 
+		CREATE TABLE [dbo].[SchemaChanges](
+		   [ID] [int] IDENTITY(1,1) NOT NULL,
+		   [MajorReleaseNumber] [varchar](2) NOT NULL,
+		   [MinorReleaseNumber] [varchar](2) NOT NULL,
+		   [PointReleaseNumber] [varchar](4) NOT NULL,
+		   [ScriptName] [varchar](50) NOT NULL,
+		   [DateApplied] [datetime] NOT NULL,
+
+		    CONSTRAINT [PK_SchemaChangeLog] 
+		        PRIMARY KEY CLUSTERED ([ID] ASC)
+		)
