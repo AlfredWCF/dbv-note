@@ -63,3 +63,4 @@ When apply some changes, do as follows:
 
 # [BRANCHING AND MERGING](https://odetocode.com/blogs/scott/archive/2008/02/03/versioning-databases-branching-and-merging.aspx) #
 
+You have a new baseline(eg: baseline v2.0 than baseline v1.0) which covers baseline v1.0 and all the changes until release our new feature branch.
