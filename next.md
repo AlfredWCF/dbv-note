@@ -5,9 +5,9 @@
 * [database migrations tool](https://flywaydb.org/)
 * [continuous integration](https://martinfowler.com/articles/continuousIntegration.html)
 * CI tools
-        - <https://www.gocd.org/>
-        - <https://snap-ci.com/>
-        - <https://jenkins.io/>
-        - <https://www.atlassian.com/software/bamboo>
-        - <https://travis-ci.com/>
+>       - <https://www.gocd.org/>
+>       - <https://snap-ci.com/>
+>       - <https://jenkins.io/>
+>       - <https://www.atlassian.com/software/bamboo>
+>       - <https://travis-ci.com/>
 
