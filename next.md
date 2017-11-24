@@ -4,6 +4,7 @@
 * [evolutionary database design](https://martinfowler.com/articles/evodb.html)
 * [database migrations tool](https://flywaydb.org/)
 * [continuous integration](https://martinfowler.com/articles/continuousIntegration.html)
+
 * CI tools
         + <https://www.gocd.org/>
         + <https://snap-ci.com/>
