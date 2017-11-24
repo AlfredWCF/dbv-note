@@ -4,14 +4,19 @@
 
 ## [evolutionary database design](https://martinfowler.com/articles/evodb.html) ##
 
-## database migrations tool ##
+### database migrations tool ###
 * <https://flywaydb.org/>
+* <http://liquibase.org/>
+* <https://github.com/mybatis/migrations>
+* <http://dbdeploy.com/>
 
 ## [continuous integration](https://martinfowler.com/articles/continuousIntegration.html) ##
 
-## CI tools ##
+### CI tools ###
 * <https://www.gocd.org/>
 * <https://snap-ci.com/>
 * <https://jenkins.io/>
 * <https://www.atlassian.com/software/bamboo>
 * <https://travis-ci.com/>
+
+## [continuous delivery](https://martinfowler.com/bliki/ContinuousDelivery.html)
