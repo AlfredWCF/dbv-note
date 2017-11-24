@@ -1,18 +1,17 @@
 # dbv => evolutionary database design => CI & CD => devops #
 
-[dbv](https://odetocode.com/blogs/scott/archive/2008/02/03/versioning-databases-branching-and-merging.aspx)
+## [dbv](https://odetocode.com/blogs/scott/archive/2008/02/03/versioning-databases-branching-and-merging.aspx) ##
 
-[evolutionary database design](https://martinfowler.com/articles/evodb.html)
+## [evolutionary database design](https://martinfowler.com/articles/evodb.html) ##
 
-database migrations tool
-       * <https://flywaydb.org/>
+## database migrations tool ##
+* <https://flywaydb.org/>
 
-[continuous integration](https://martinfowler.com/articles/continuousIntegration.html)
+## [continuous integration](https://martinfowler.com/articles/continuousIntegration.html) ##
 
-CI tools
-       * <https://www.gocd.org/>
-       * <https://snap-ci.com/>
-       * <https://jenkins.io/>
-       * <https://www.atlassian.com/software/bamboo>
-       * <https://travis-ci.com/>
-
+## CI tools ##
+* <https://www.gocd.org/>
+* <https://snap-ci.com/>
+* <https://jenkins.io/>
+* <https://www.atlassian.com/software/bamboo>
+* <https://travis-ci.com/>
