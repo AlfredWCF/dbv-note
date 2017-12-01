@@ -49,7 +49,7 @@ according to [the post about dbv](https://blog.codinghorror.com/get-your-databas
 
 [perhaps you need implent it in a idempotent way](https://haacked.com/archive/2006/07/05/bulletproofsqlchangescriptsusinginformation_schemaviews.aspx/)
 
-here is another atricle which talking about [Evolutionary Database Design](https://martinfowler.com/articles/evodb.html)
+here is another atricle which talking about [Evolutionary Database Design](https://martinfowler.com/articles/evodb.html),and [a reading notes](https://github.com/AlfredWCF/dbv-note/blob/master/evolutionary-db-design.md) about it.
 
 # [VIEWS, STORED PROCEDURES, FUNCTIONS, AND TRIGGERS](https://odetocode.com/blogs/scott/archive/2008/02/02/versioning-databases-views-stored-procedures-and-the-like.aspx) #
 
