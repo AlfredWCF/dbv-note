@@ -55,6 +55,8 @@ here is another atricle which talking about [Evolutionary Database Design](https
 
 > script every view, stored procedure, and function into a separate file, then commit the files to source control.
 
+**Jobs in SQL Server and Event scheduler in mysql**
+
 When apply some changes, do as follows:
 
 > 1. The tool applies new schema changes by comparing the available schema change files to the SchemaChangeLog records in the database. 
